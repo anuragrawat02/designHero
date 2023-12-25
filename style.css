@@ -1,3 +1,6 @@
+*{
+    font-family: sans-serif;
+}
 html {
   background-color: #121212;
 }
@@ -35,4 +38,56 @@ html {
   border-radius: 20px;
   background: transparent;
   color: #fff
+}
+
+.nav-home:hover{
+    cursor: pointer;
+    color: #fff;
+    transition: all;
+    transition-delay: 300ms;
+}
+.nav-explore:hover{
+    cursor: pointer;
+    color: #fff;
+    transition: all;
+    transition-delay: 300ms;
+}
+.nav-about-us:hover{
+    cursor: pointer;
+    color: #fff;
+    transition: all;
+    transition-delay: 300ms;
+}
+.nav-blogs:hover{
+    cursor: pointer;
+    color: #fff;
+    transition: all;
+    transition-delay: 300ms;
+}
+.nav-career:hover{
+    cursor: pointer;
+    color: #fbf9f9;
+    transition: all;
+    transition-delay: 300ms;
+}
+.workspace{
+    display:flex;
+    color: #fff;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-size: 70px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+}
+.lorem{
+    display: flex;
+    color:#9a9a9a;
+    justify-content: center;
+    margin-top: 30px;
+}
+.find-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
