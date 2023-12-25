@@ -1,15 +1,38 @@
 html {
   background-color: #121212;
 }
-.nav_ul {
+
+.nav{
+  font-family: sans-serif;
+  padding-top: 20px;
+  padding-right: 80px;
+  padding-left: 40px;
+}
+
+.nav-icon{
+  font-size: 20px;
+  list-style: none;
+}
+
+.nav-ul {
   display: flex;
-  width: 100%;
   color: aliceblue;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-between;
   
 }
-.home {
+.nav-links {
   display: flex;
+  color: #b5b5b5;
   gap: 20px;
   list-style: none;
+}
+
+.nav-btn .contact_button{
+  padding: 14px;
+  border-color: #fff;
+  border-width: 2px;
+  border-radius: 20px;
+  background: transparent;
+  color: #fff
 }
